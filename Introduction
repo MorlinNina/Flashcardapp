@@ -1,0 +1,7 @@
+Anleitung zum Starten der PWA
+
+1. Lokal die MySQL Datenbanktabelle "imemory" erstellen
+2. Im imemory_api Verzeichnis liegt eine script.sql, mit der die nötigen Tabellen angelegt und erste Beispielwerte gepflegt werden. Dieses Script einmal in der neien Datenbanktabelle ausführen
+3. .env Datei im imemory_api Verzeichnis anpassen. Dort müssen die Zugangsdaten für deine jewielige Datenbank hinterlegt werden
+5. Die API wird dann mit npm run dev im imemory_api Verzeichnis gestartet
+6. Dann  die React App starten, indem im Verzeichnis imemory_app "npm start" ausgeführt wird. "serve -s build" nacch Änderungen -> "npm run build" 
